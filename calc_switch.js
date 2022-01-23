@@ -2,9 +2,9 @@
 
 function Calc (operation, a, b) {
 
-    let isValid = typeof a != 'number' || typeof b != 'number';
+    let isNotValid = typeof a != 'number' || typeof b != 'number';
 
-    if (isValid) {
+    if (isNotValid) {
         return 'Error';
     } 
 
